@@ -95,7 +95,7 @@ if dummy == 'Yes':
 
 
 #ask number of months to be predicted
-number_of_predictions = questionary.text("How many months would you like Tourist Prophet to predict (max 500)?").ask()
+number_of_predictions = questionary.text("How many months would you like Tourist Prophet to predict?").ask()
 number_of_predictions = int(number_of_predictions)
 
 #create Prophet object
@@ -118,12 +118,13 @@ if dummy == 'Yes':
 #create prediction
 forecast_data = model.predict(df_future)
 
+#print out in a csv file a subset of the dataframe produced by Prophet 
+forecast_data[['ds','yhat','yhat_lower','yhat_upper','regressor', 'trend']].to_csv('forecast.csv', index=False)
+
 #display graphs
 model.plot(forecast_data)
 model.plot_components(forecast_data)
 plt.show()
 
-#create smaller dataframe from the forecast output to print as a csv file
-forecast_data2=forecast_data[['ds','yhat','yhat_lower','yhat_upper','regressor', 'trend']]
-forecast_data2.to_csv('forecast.csv', index=False)
+
 
