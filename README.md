@@ -2,7 +2,7 @@
 
 ### *A Disrupted Industry*
 
-The pandemic was a very difficult time for the tourism industry. Tourist Prophet allows the user to access historical monthly data on the number of visitors to a country and make a forecast using Facebook’s Prophet. 
+The pandemic was a very difficult time for the tourism industry. Tourist Prophet allows the user to access monthly historical data on the number of visitors to a country and make a forecast using Facebook’s Prophet. 
 
 ### *The App*
 Tourist Prophet is a Python app that needs to run on terminal. You will also need the SQL database called 'tourism_data' saved in the Resources folder. 
@@ -18,7 +18,7 @@ The available historical data varies by country, the model in Tourist Prophet wi
 
 The app will ask whether the user wants to create a dummy variable for the pandemic. The dummy will take the value of 1 if the month falls within the pandemic and 0 otherwise. If the user decides to create the variable it will then ask to specify the first and last month of the pandemic. 
 
-Lastly, the user can specify the number of months they want to forecast. We think that about 50 months in the future is the fair forecast given available data, however, the user can enter any number. If the number is too large the program will not run. 
+Lastly, the user can specify the number of months they want to forecast. We think that about 50 months in the future is a fair forecast given available data, however, the user can enter any number. If the number is too large (~10,000) the program will not run. 
 
 ### *Output*
 
