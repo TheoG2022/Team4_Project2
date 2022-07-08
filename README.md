@@ -30,16 +30,19 @@ The black dots represent real data. The blue line the forecast made by Tourist P
 <br>
 <br>
 <br>
-<br>
+
 
 <p align='center'> <img src='images/Figure_2.png'></p>
 The top graph shows the trend. The graph in the middle the annual seasonality. The bottom graph the coefficient of the dummy variable. 
 
 <br>
-
+<br>
+<br>
 <p align='center'> <img src='images/Figure_3.PNG'></p>
 This an image of 'forecast.csv'. yhat is the predicted number of visitors that month. 
 
+<br>
+<br>
 <br>
 
 ### *Requirements*
