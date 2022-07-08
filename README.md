@@ -1,5 +1,6 @@
 # Tourist Prophet
 <p align='center'> <img src='images/tourism2.jpg'></p>
+
 ### *A Disrupted Industry*
 
 The pandemic was a very difficult time for the tourism industry. Tourist Prophet allows the user to access monthly historical data on the number of visitors to a country and make a forecast using Facebook’s Prophet. 
