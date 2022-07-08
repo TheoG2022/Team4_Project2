@@ -1,5 +1,5 @@
 # Tourist Prophet
-
+<p align='center'> <img src='images/tourism2.jpg'></p>
 ### *A Disrupted Industry*
 
 The pandemic was a very difficult time for the tourism industry. Tourist Prophet allows the user to access monthly historical data on the number of visitors to a country and make a forecast using Facebook’s Prophet. 
@@ -41,8 +41,6 @@ The top graph shows the trend. The graph in the middle the annual seasonality. T
 <p align='center'> <img src='images/Figure_3.PNG'></p>
 This an image of 'forecast.csv'. yhat is the predicted number of visitors that month. 
 
-<br>
-<br>
 <br>
 
 ### *Requirements*
