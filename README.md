@@ -30,7 +30,7 @@ The black dots represent real data. The blue line the forecast made by Tourist P
 <p align='center'> <img src='images/Figure_2.png'></p>
 The top graph shows the trend. The graph in the middle the annual seasonality. The bottom graph the coefficient of the dummy variable. 
 
-<p align='center'> <img src='images/Figure_3.png'></p>
+<p align='center'> <img src='images/Figure_3.PNG'></p>
 This an image of 'forecast.csv'. yhat is the predicted number of visitors that month. 
 
 ### *Requirements*
@@ -38,6 +38,7 @@ This an image of 'forecast.csv'. yhat is the predicted number of visitors that m
 The user needs to have Facebook's Prophet installed in their environment. They can get it by running this code:
 
 >conda install plotly
+>
 >conda install -c conda-forge fbprophet
 
 
