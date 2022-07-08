@@ -27,11 +27,17 @@ The program will produce four graphs and save a file called 'forecast.csv' in th
 <p align='center'> <img src='images/Figure_1.png'></p>
 The black dots represent real data. The blue line the forecast made by Tourist Prophet. The blue shaded area is the 95% confidence interval. 
 
+
+
 <p align='center'> <img src='images/Figure_2.png'></p>
 The top graph shows the trend. The graph in the middle the annual seasonality. The bottom graph the coefficient of the dummy variable. 
 
+
+
 <p align='center'> <img src='images/Figure_3.PNG'></p>
 This an image of 'forecast.csv'. yhat is the predicted number of visitors that month. 
+
+
 
 ### *Requirements*
 
