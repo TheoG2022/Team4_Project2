@@ -28,6 +28,7 @@ The user needs to have Facebook's Prophet installed in their environment. They c
 >conda install plotly
 >conda install -c conda-forge fbprophet
 ```
+---
 
 ## Usage
 Tourist Prophet is a Python app that needs to run on terminal. You will also need the SQL database called [tourism_data](https://github.com/TheoG2022/Team4_Project2/blob/main/Resources/tourism_data.db). 
@@ -35,7 +36,9 @@ Tourist Prophet is a Python app that needs to run on terminal. You will also nee
 The user can select one out of five countries:
 [Iceland](https://www.ferdamalastofa.is/en/recearch-and-statistics/numbers-of-foreign-visitors), [Jamaica](https://tourismanalytics.com/jamaica.html), [Portugal](https://tradingeconomics.com/portugal/tourist-arrivals), [Singapore](https://stan.stb.gov.sg/public/sense/app/877a079c-e05f-4871-8d87-8e6cc1963b02/sheet/3df3802e-2e5b-4c79-950d-d7265c4c07a9/state/analysis), [UK](https://data.worldbank.org/indicator/ST.INT.RCPT.CD?locations=GB)
 
-*The available historical data varies by country, the model in Tourist Prophet will use all available data.
+*The available historical data varies by country, the model in Tourist Prophet will use all available data.*
+
+### Steps
 
 1.  Select a country - The app will give you options from the list of countries in the SQL database
 2.  Create a variable - The app will ask whether the user wants to create a dummy variable for the pandemic. The dummy will take the value of 1 if the month falls within the pandemic and 0 otherwise. If the user decides to create the variable it will then ask to specify the first and last month of the pandemic.
@@ -61,9 +64,12 @@ This an image of 'forecast.csv'. what is the predicted number of visitors that m
 
 <br>
 
+---
 
-## Credits
-[Chukwuma Ochu], [Daniel Pulido-Mendez], [Dynah Beermann], [Theo Gill](https://github.com/TheoG2022), [Tiago Lopez]
+## Contributors
+[Chukwuma Ochu](https://github.com/Chukwuma), [Daniel Pulido-Mendez](https://github.com/daniel-lobster), [Dynah Beermann](https://github.com/DynahB1), [Theo Gill](https://github.com/TheoG2022), [Tiago Lopez]
+
+---
 
 ## License
 None
