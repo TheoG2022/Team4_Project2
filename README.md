@@ -66,10 +66,16 @@ This an image of 'forecast.csv'. what is the predicted number of visitors that m
 
 ---
 
+## Command Line Interface
+<p align='center'> <img src='images/image.png'></p>
+This is the command Line interface of how the app looks and interacts.
+
+---
+
 ## Contributors
-[Chukwuma Ochu](https://github.com/Chukwuma), [Daniel Pulido-Mendez](https://github.com/daniel-lobster), [Dynah Beermann](https://github.com/DynahB1), [Theo Gill](https://github.com/TheoG2022), [Tiago Lopez]
+[Chukwuma Ochu](https://github.com/Chukwuma), [Daniel Pulido-Mendez](https://github.com/daniel-lobster), [Dynah Beermann](https://github.com/DynahB1), [Theo Gill](https://github.com/TheoG2022), [Tiago Lopez](http://github.com/tiagonlopes)
 
 ---
 
 ## License
-None
+MIT
